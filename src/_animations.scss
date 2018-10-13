@@ -1,0 +1,73 @@
+/*=============================================
+=              ANIMATIONS.SCSS                =
+=============================================*/
+
+.anim-dim,
+.dim {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.anim-dim:hover,
+.anim-dim:focus,
+.dim:hover,
+.dim:focus {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
+.anim-dim:active,
+.dim:active {
+  opacity: .8;
+  transition: opacity .15s ease-out;
+}
+
+.anim-glow,
+.glow {
+  transition: opacity .15s ease-in;
+}
+
+.anim-glow:hover,
+.anim-glow:focus,
+.glow:hover,
+.glow:focus {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.anim-shadow,
+.shadow {
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.anim-shadow::after,
+.shadow::after {
+  content: '';
+  box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, .2);
+  border-radius: inherit;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.anim-shadow:hover::after,
+.shadow:hover::after {
+  opacity: 1;
+}
+
+.anim-bg,
+.anim-bg:hover,
+.anim-bg:focus {
+  transition: background-color .15s ease-in-out;
+}

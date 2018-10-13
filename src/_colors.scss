@@ -1,0 +1,124 @@
+/*=============================================
+=                COLORS.SCSS                  =
+=============================================*/
+
+/*----------  Variables  ----------*/
+
+$c-navy: #001f3f;
+$c-blue: #0074D9;
+$c-aqua: #7FDBFF;
+$c-teal: #39CCCC;
+$c-olive: #3D9970;
+$c-green: #2ECC40;
+$c-lime: #01FF70;
+$c-yellow: #FFDC00;
+$c-orange: #FF851B;
+$c-red: #FF4136;
+$c-maroon: #85144b;
+$c-fuchsia: #F012BE;
+$c-purple: #B10DC9;
+$c-black: rgb(45, 49, 56);
+$c-gray: #AAAAAA;
+$c-silver: #DDDDDD;
+$c-white: #FFFFFF;
+
+/*----------  Foreground  ----------*/
+
+.navy { color: $c-navy; }
+.blue { color: $c-blue; }
+.aqua { color: $c-aqua; }
+.teal { color: $c-teal; }
+.olive { color: $c-olive; }
+.green { color: $c-green; }
+.lime { color: $c-lime; }
+.yellow { color: $c-yellow; }
+.orange { color: $c-orange; }
+.red { color: $c-red; }
+.maroon { color: $c-maroon; }
+.fuchsia { color: $c-fuchsia; }
+.purple { color: $c-purple; }
+.black { color: $c-black; }
+.gray,
+.grey { color: $c-gray; }
+.silver { color: $c-silver; }
+.white { color: $c-white; }
+
+.hover-navy:hover { color: $c-navy; }
+.hover-blue:hover { color: $c-blue; }
+.hover-aqua:hover { color: $c-aqua; }
+.hover-teal:hover { color: $c-teal; }
+.hover-olive:hover { color: $c-olive; }
+.hover-green:hover { color: $c-green; }
+.hover-lime:hover { color: $c-lime; }
+.hover-yellow:hover { color: $c-yellow; }
+.hover-orange:hover { color: $c-orange; }
+.hover-red:hover { color: $c-red; }
+.hover-maroon:hover { color: $c-maroon; }
+.hover-fuchsia:hover { color: $c-fuchsia; }
+.hover-purple:hover { color: $c-purple; }
+.hover-black:hover { color: $c-black; }
+.hover-gray:hover,
+.hover-grey:hover { color: $c-gray; }
+.hover-silver:hover { color: $c-silver; }
+.hover-white:hover { color: $c-white; }
+
+/*----------  Background  ----------*/
+
+.bg-navy { background-color: $c-navy; }
+.bg-blue { background-color: $c-blue; }
+.bg-aqua { background-color: $c-aqua; }
+.bg-teal { background-color: $c-teal; }
+.bg-olive { background-color: $c-olive; }
+.bg-green { background-color: $c-green; }
+.bg-lime { background-color: $c-lime; }
+.bg-yellow { background-color: $c-yellow; }
+.bg-orange { background-color: $c-orange; }
+.bg-red { background-color: $c-red; }
+.bg-maroon { background-color: $c-maroon; }
+.bg-fuchsia { background-color: $c-fuchsia; }
+.bg-purple { background-color: $c-purple; }
+.bg-black { background-color: $c-black; }
+.bg-gray,
+.bg-grey { background-color: $c-gray; }
+.bg-silver { background-color: $c-silver; }
+.bg-white { background-color: $c-white; }
+
+.hover-bg-navy:hover { background-color: $c-navy; }
+.hover-bg-blue:hover { background-color: $c-blue; }
+.hover-bg-aqua:hover { background-color: $c-aqua; }
+.hover-bg-teal:hover { background-color: $c-teal; }
+.hover-bg-olive:hover { background-color: $c-olive; }
+.hover-bg-green:hover { background-color: $c-green; }
+.hover-bg-lime:hover { background-color: $c-lime; }
+.hover-bg-yellow:hover { background-color: $c-yellow; }
+.hover-bg-orange:hover { background-color: $c-orange; }
+.hover-bg-red:hover { background-color: $c-red; }
+.hover-bg-maroon:hover { background-color: $c-maroon; }
+.hover-bg-fuchsia:hover { background-color: $c-fuchsia; }
+.hover-bg-purple:hover { background-color: $c-purple; }
+.hover-bg-black:hover { background-color: $c-black; }
+.hover-bg-gray:hover,
+.hover-bg-grey:hover { background-color: $c-gray; }
+.hover-bg-silver:hover { background-color: $c-silver; }
+.hover-bg-white:hover { background-color: $c-white; }
+
+/*----------  Border Colors  ----------*/
+
+.bc-navy { background-color: $c-navy; }
+.bc-blue { background-color: $c-blue; }
+.bc-aqua { background-color: $c-aqua; }
+.bc-teal { background-color: $c-teal; }
+.bc-olive { background-color: $c-olive; }
+.bc-green { background-color: $c-green; }
+.bc-lime { background-color: $c-lime; }
+.bc-yellow { background-color: $c-yellow; }
+.bc-orange { background-color: $c-orange; }
+.bc-red { background-color: $c-red; }
+.bc-maroon { background-color: $c-maroon; }
+.bc-fuchsia { background-color: $c-fuchsia; }
+.bc-purple { background-color: $c-purple; }
+.bc-black { background-color: $c-black; }
+.bc-gray,
+.bc-grey { background-color: $c-gray; }
+.bc-silver { background-color: $c-silver; }
+.bc-white { background-color: $c-white; }

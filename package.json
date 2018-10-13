@@ -1,0 +1,29 @@
+{
+  "name": "kapoera",
+  "version": "1.0.0",
+  "description": "no-frills css-ish framework",
+  "main": "dist/kapoera.standard.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:standard": "node-sass src/standard.scss > tmp.css && cleancss -o dist/kapoera.standard.css tmp.css && rm tmp.css",
+    "compile:minimal": "node-sass src/minimal.scss > tmp.css && cleancss -o dist/kapoera.minimal.css tmp.css && rm tmp.css",
+    "compile": "npm run compile:standard && npm run compile:minimal"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coll/kapoera.git"
+  },
+  "author": "Olivia Hugger <olivia@fastmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coll/kapoera/issues"
+  },
+  "homepage": "https://github.com/coll/kapoera#readme",
+  "dependencies": {
+    "clean-css-cli": "^4.2.1",
+    "node-sass": "^4.9.3"
+  }
+}

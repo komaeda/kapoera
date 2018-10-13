@@ -1,0 +1,17 @@
+@mixin bp_ns {
+  @media screen and (min-width: 30em) {
+    @content;
+  }
+}
+
+@mixin bp_m {
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    @content;
+  }
+}
+
+@mixin bp_l {
+  @media screen and (min-width: 60em) {
+    @content;
+  }
+}

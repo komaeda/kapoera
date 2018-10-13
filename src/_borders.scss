@@ -1,0 +1,119 @@
+/*=============================================
+=                BORDERS.SCSS                 =
+=============================================*/
+
+/*----------  Basic Border styles  ----------*/
+
+.ba { border-style: solid; border-width: 1px; }
+.bt { border-top-style: solid; border-top-width: 1px; }
+.br { border-right-style: solid; border-right-width: 1px; }
+.bb { border-bottom-style: solid; border-bottom-width: 1px; }
+.bl { border-left-style: solid; border-left-width: 1px; }
+.bn { border-style: none; border-width: 0; }
+.bs-solid { border-style: solid; }
+.bs-none { border-style: none; }
+
+@include bp_ns {
+  .ba-ns { border-style: solid; border-width: 1px; }
+  .bt-ns { border-top-style: solid; border-top-width: 1px; }
+  .br-ns { border-right-style: solid; border-right-width: 1px; }
+  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-ns { border-left-style: solid; border-left-width: 1px; }
+  .bn-ns { border-style: none; border-width: 0; }
+  .bs-solid-ns { border-style: solid; }
+  .bs-none-ns { border-style: none; }
+}
+
+@include bp_m {
+  .ba-m { border-style: solid; border-width: 1px; }
+  .bt-m { border-top-style: solid; border-top-width: 1px; }
+  .br-m { border-right-style: solid; border-right-width: 1px; }
+  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-m { border-left-style: solid; border-left-width: 1px; }
+  .bn-m { border-style: none; border-width: 0; }
+  .bs-solid-m { border-style: solid; }
+  .bs-none-m { border-style: none; }
+}
+
+@include bp_l {
+  .ba-l { border-style: solid; border-width: 1px; }
+  .bt-l { border-top-style: solid; border-top-width: 1px; }
+  .br-l { border-right-style: solid; border-right-width: 1px; }
+  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-l { border-left-style: solid; border-left-width: 1px; }
+  .bn-l { border-style: none; border-width: 0; }
+  .bs-solid-l { border-style: solid; }
+  .bs-none-l { border-style: none; }
+}
+
+/*----------  Border Widths  ----------*/
+
+.bw0 { border-width: 0; }
+.bw1 { border-width: .125rem; }
+.bw2 { border-width: .25rem; }
+.bw3 { border-width: .5rem; }
+.bw4 { border-width: 1rem; }
+.bw5 { border-width: 2rem; }
+
+@include bp_ns {
+  .bw0-ns { border-width: 0; }
+  .bw1-ns { border-width: .125rem; }
+  .bw2-ns { border-width: .25rem; }
+  .bw3-ns { border-width: .5rem; }
+  .bw4-ns { border-width: 1rem; }
+  .bw5-ns { border-width: 2rem; }
+}
+
+@include bp_m {
+  .bw0-m { border-width: 0; }
+  .bw1-m { border-width: .125rem; }
+  .bw2-m { border-width: .25rem; }
+  .bw3-m { border-width: .5rem; }
+  .bw4-m { border-width: 1rem; }
+  .bw5-m { border-width: 2rem; }
+}
+
+@include bp_l {
+  .bw0-l { border-width: 0; }
+  .bw1-l { border-width: .125rem; }
+  .bw2-l { border-width: .25rem; }
+  .bw3-l { border-width: .5rem; }
+  .bw4-l { border-width: 1rem; }
+  .bw5-l { border-width: 2rem; }
+}
+
+/*----------  Border Radius  ----------*/
+
+.br0 { border-radius: 0; }
+.br1 { border-radius: .125rem; }
+.br2 { border-radius: .25rem; }
+.br3 { border-radius: .5rem; }
+.br4 { border-radius: 1rem; }
+.br-100 { border-radius: 100%; }
+
+@include bp_ns {
+  .br0-ns { border-radius: 0; }
+  .br1-ns { border-radius: .125rem; }
+  .br2-ns { border-radius: .25rem; }
+  .br3-ns { border-radius: .5rem; }
+  .br4-ns { border-radius: 1rem; }
+  .br-100-ns { border-radius: 100%; }
+}
+
+@include bp_m {
+  .br0-m { border-radius: 0; }
+  .br1-m { border-radius: .125rem; }
+  .br2-m { border-radius: .25rem; }
+  .br3-m { border-radius: .5rem; }
+  .br4-m { border-radius: 1rem; }
+  .br-100-m { border-radius: 100%; }
+}
+
+@include bp_l {
+  .br0-l { border-radius: 0; }
+  .br1-l { border-radius: .125rem; }
+  .br2-l { border-radius: .25rem; }
+  .br3-l { border-radius: .5rem; }
+  .br4-l { border-radius: 1rem; }
+  .br-100-l { border-radius: 100%; }
+}

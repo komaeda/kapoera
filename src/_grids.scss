@@ -1,0 +1,201 @@
+/*=============================================
+=                 GRIDS.SCSS                  =
+=============================================*/
+
+.dg {
+  display: grid;
+}
+
+.gc2-30 {
+  grid-template-columns: 30% 70%;
+}
+
+.gc2-50 {
+  grid-template-columns: 50% 50%;
+}
+
+.gc2-70 {
+  grid-template-columns: 70% 30%;
+}
+
+.g-flow-row {
+  grid-auto-flow: row;
+}
+
+.g-flow-column {
+  grid-auto-flow: column;
+}
+
+.g-flow-dense {
+  grid-auto-flow: dense;
+}
+
+@for $i from 1 to 8 {
+  .gc#{$i} {
+    grid-template-columns: repeat($i, [col] auto);
+  }
+
+  .gr#{$i} {
+    grid-template-rows: repeat($i, [row] auto);
+  }
+}
+
+.gg1 {
+  grid-gap: .5rem;
+}
+
+.gg2 {
+  grid-gap: 1rem;
+}
+
+.gg3 {
+  grid-gap: 2rem;
+}
+
+@for $i from 2 to 8 {
+  .col#{$i} {
+    grid-column: col $i;
+  }
+
+  .row#{$i} {
+    grid-row: row $i;
+  }
+}
+
+@include bp_ns {
+  .gc2-30-ns {
+    grid-template-columns: 30% 70%;
+  }
+
+  .gc2-50-ns {
+    grid-template-columns: 50% 50%;
+  }
+
+  .gc2-70-ns {
+    grid-template-columns: 70% 30%;
+  }
+
+  .g-flow-row-ns {
+    grid-auto-flow: row;
+  }
+  
+  .g-flow-column-ns {
+    grid-auto-flow: column;
+  }
+  
+  .g-flow-dense-ns {
+    grid-auto-flow: dense;
+  }
+
+  @for $i from 1 to 8 {
+    .gc#{$i}-ns {
+      grid-template-columns: repeat($i, [col] auto);
+    }
+
+    .gr#{$i}-ns {
+      grid-template-rows: repeat($i, [row] auto);
+    }
+  }
+
+  @for $i from 2 to 8 {
+    .col#{$i}-ns {
+      grid-column: col $i;
+    }
+
+    .row#{$i}-ns {
+      grid-row: row $i;
+    }
+  }
+}
+
+@include bp_m {
+  .gc2-30-m {
+    grid-template-columns: 30% 70%;
+  }
+
+  .gc2-50-m {
+    grid-template-columns: 50% 50%;
+  }
+
+  .gc2-70-m {
+    grid-template-columns: 70% 30%;
+  }
+
+  .g-flow-row-m {
+    grid-auto-flow: row;
+  }
+  
+  .g-flow-column-m {
+    grid-auto-flow: column;
+  }
+  
+  .g-flow-dense-m {
+    grid-auto-flow: dense;
+  }
+
+  @for $i from 1 to 8 {
+    .gc#{$i}-m {
+      grid-template-columns: repeat($i, [col] auto);
+    }
+
+    .gr#{$i}-m {
+      grid-template-rows: repeat($i, [row] auto);
+    }
+  }
+
+  @for $i from 2 to 8 {
+    .col#{$i}-m {
+      grid-column: col $i;
+    }
+
+    .row#{$i}-m {
+      grid-row: row $i;
+    }
+  }
+}
+
+@include bp_l {
+  .gc2-30-l {
+    grid-template-columns: 30% 70%;
+  }
+
+  .gc2-50-l {
+    grid-template-columns: 50% 50%;
+  }
+
+  .gc2-70-l {
+    grid-template-columns: 70% 30%;
+  }
+
+  .g-flow-row-l {
+    grid-auto-flow: row;
+  }
+  
+  .g-flow-column-l {
+    grid-auto-flow: column;
+  }
+  
+  .g-flow-dense-l {
+    grid-auto-flow: dense;
+  }
+
+  @for $i from 1 to 8 {
+    .gc#{$i}-l {
+      grid-template-columns: repeat($i, [col] auto);
+    }
+
+    .gr#{$i}-l {
+      grid-template-rows: repeat($i, [row] auto);
+    }
+  }
+
+  @for $i from 2 to 8 {
+    .col#{$i}-l {
+      grid-column: col $i;
+    }
+
+    .row#{$i}-l {
+      grid-row: row $i;
+    }
+  }
+}

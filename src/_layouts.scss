@@ -1,0 +1,137 @@
+/*=============================================
+=               LAYOUTS.SCSS                  =
+=============================================*/
+
+/*----------  Display Styles  ----------*/
+
+.db { display: block; }
+.dib { display: inline-block; }
+.di { display: inline; }
+.dn { display: none; }
+.dh { display: hidden; }
+.df { display: flex; }
+.dif { display: inline-flex; }
+
+@include bp_ns {
+  .db-ns { display: block; }
+  .dib-ns { display: inline-block; }
+  .di-ns { display: inline; }
+  .dn-ns { display: none; }
+  .dh-ns { display: hidden; }
+  .df-ns { display: flex; }
+  .dif-ns { display: inline-flex; }
+}
+
+@include bp_m {
+  .db-m { display: block; }
+  .dib-m { display: inline-block; }
+  .di-m { display: inline; }
+  .dn-m { display: none; }
+  .dh-m { display: hidden; }
+  .df-m { display: flex; }
+  .dif-m { display: inline-flex; }
+}
+
+@include bp_l {
+  .db-l { display: block; }
+  .dib-l { display: inline-block; }
+  .di-l { display: inline; }
+  .dn-l { display: none; }
+  .dh-l { display: hidden; }
+  .df-l { display: flex; }
+  .dif-l { display: inline-flex; }
+}
+
+/*----------  Common Layouts  ----------*/
+
+.l-centered {
+  max-width: 67rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@include bp_ns {
+  .l-centered-ns {
+    max-width: 67rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center-ns {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@include bp_m {
+  .l-centered-m {
+    max-width: 67rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center-m {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@include bp_l {
+  .l-centered-l {
+    max-width: 67rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center-l {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*----------  Vertical Alignment  ----------*/
+
+.v-base { vertical-align: baseline; }
+.v-mid { vertical-align: middle; }
+.v-top { vertical-align: top; }
+.v-btm { vertical-align: bottom; }
+
+@include bp_ns {
+  .v-base-ns { vertical-align: baseline; }
+  .v-mid-ns { vertical-align: middle; }
+  .v-top-ns { vertical-align: top; }
+  .v-btm-ns { vertical-align: bottom; }
+}
+
+@include bp_m {
+  .v-base-m { vertical-align: baseline; }
+  .v-mid-m { vertical-align: middle; }
+  .v-top-m { vertical-align: top; }
+  .v-btm-m { vertical-align: bottom; }
+}
+
+@include bp_l{
+  .v-base-l { vertical-align: baseline; }
+  .v-mid-l { vertical-align: middle; }
+  .v-top-l { vertical-align: top; }
+  .v-btm-l { vertical-align: bottom; }
+}
+
+/*----------  Table Styles  ----------*/
+
+.dt {
+  display: table;
+}
+
+.dtc {
+  display: table-cell;
+}
+
+.dtr {
+  display: table-row;
+}

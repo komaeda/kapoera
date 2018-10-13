@@ -1,0 +1,121 @@
+/*=============================================
+=              FONT-TYPE.SCSS                 =
+=============================================*/
+
+.measure {
+  max-width: 30em;
+}
+
+.measure-wide {
+  max-width: 34em;
+}
+
+.measure-narrow {
+  max-width: 20em;
+}
+
+.indent {
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tracked {
+  letter-spacing: .1em;
+}
+
+@include bp_ns {
+  .measure-ns {
+    max-width: 30em;
+  }
+  
+  .measure-wide-ns {
+    max-width: 34em;
+  }
+  
+  .measure-narrow-ns {
+    max-width: 20em;
+  }
+  
+  .indent-ns {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .truncate-ns {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tracked-ns {
+    letter-spacing: .1em;
+  }
+}
+
+@include bp_m {
+  .measure-m {
+    max-width: 30em;
+  }
+  
+  .measure-wide-m {
+    max-width: 34em;
+  }
+  
+  .measure-narrow-m {
+    max-width: 20em;
+  }
+  
+  .indent-m {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .truncate-m {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tracked-m {
+    letter-spacing: .1em;
+  }
+}
+
+@include bp_l {
+  .measure-l {
+    max-width: 30em;
+  }
+  
+  .measure-wide-l {
+    max-width: 34em;
+  }
+  
+  .measure-narrow-l {
+    max-width: 20em;
+  }
+  
+  .indent-l {
+    text-indent: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .truncate-l {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tracked-l {
+    letter-spacing: .1em;
+  }
+}

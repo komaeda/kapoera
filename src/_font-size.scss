@@ -1,0 +1,87 @@
+/*=============================================
+=               FONT-SIZE.SCSS                =
+=============================================*/
+
+/*----------  Variables  ----------*/
+
+$s: (1: 3rem, 2: 2.25rem, 3: 1.5rem, 4: 1.25rem, 5: 1rem, 6: .875rem, 7: .75rem);
+
+/*----------  Font Sizes and Weights  ----------*/
+
+.f-largest { font-size: 5rem; }
+
+@include bp_ns {
+  .f-largest-ns { font-size: 5rem; }
+}
+
+@include bp_m {
+  .f-largest-m { font-size: 5rem; }
+}
+
+@include bp_l {
+  .f-largest-l { font-size: 5rem; }
+}
+
+@for $i from 1 to 8 {
+  .f#{$i} {
+    font-size: map-get($s, $i);
+  }
+
+  .fw#{$i} {
+    font-weight: $i * 100;
+  }
+
+  @include bp_ns {
+    .f#{$i}-ns {
+      font-size: map-get($s, $i);
+    }
+
+    .fw#{$i}-ns {
+      font-weight: $i * 100;
+    }
+  }
+
+  @include bp_m {
+    .f#{$i}-m {
+      font-size: map-get($s, $i);
+    }
+
+    .fw#{$i}-ns {
+      font-weight: $i * 100;
+    }
+  }
+
+  @include bp_l {
+    .f#{$i}-l {
+      font-size: map-get($s, $i);
+    }
+
+    .fw#{$i}-ns {
+      font-weight: $i * 100;
+    }
+  }
+}
+
+/*----------  Line Heights  ----------*/
+
+.lh-solid { line-height: 1; }
+.lh-title { line-height: 1.25; }
+.lh-copy { line-height: 1.5; }
+
+@include bp_ns {
+  .lh-solid-ns { line-height: 1; }
+  .lh-title-ns { line-height: 1.25; }
+  .lh-copy-ns { line-height: 1.5; }
+}
+
+@include bp_m {
+  .lh-solid-m { line-height: 1; }
+  .lh-title-m { line-height: 1.25; }
+  .lh-copy-m { line-height: 1.5; }
+}
+
+@include bp_l {
+  .lh-solid-l { line-height: 1; }
+  .lh-title-l { line-height: 1.25; }
+  .lh-copy-l { line-height: 1.5; }
+}

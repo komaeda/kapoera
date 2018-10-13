@@ -1,0 +1,267 @@
+/*=============================================
+=               SPACING.SCSS                  =
+=============================================*/
+
+/*----------  Variables  ----------*/
+
+$s: (1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem);
+
+/*----------  Margins  ----------*/
+
+@for $i from 1 to 8 {
+  .ma#{$i} {
+    margin: map-get($s, $i);
+  }
+
+  .mt#{$i} {
+    margin-top: map-get($s, $i);
+  }
+
+  .mr#{$i} {
+    margin-right: map-get($s, $i);
+  }
+
+  .mb#{$i} {
+    margin-bottom: map-get($s, $i);
+  }
+
+  .ml#{$i} {
+    margin-left: map-get($s, $i);
+  }
+
+  .mh#{$i} {
+    margin-left: map-get($s, $i);
+    margin-right: map-get($s, $i);
+  }
+
+  .mv#{$i} {
+    margin-top: map-get($s, $i);
+    margin-bottom: map-get($s, $i);
+  }
+
+  @include bp_ns {
+    .ma#{$i}-ns {
+      margin: map-get($s, $i);
+    }
+  
+    .mt#{$i}-ns {
+      margin-top: map-get($s, $i);
+    }
+  
+    .mr#{$i}-ns {
+      margin-right: map-get($s, $i);
+    }
+  
+    .mb#{$i}-ns {
+      margin-bottom: map-get($s, $i);
+    }
+  
+    .ml#{$i}-ns {
+      margin-left: map-get($s, $i);
+    }
+
+    .mh#{$i}-ns {
+      margin-left: map-get($s, $i);
+      margin-right: map-get($s, $i);
+    }
+
+    .mv#{$i}-ns {
+      margin-top: map-get($s, $i);
+      margin-bottom: map-get($s, $i);
+    }
+  }
+
+  @include bp_m {
+    .ma#{$i}-m {
+      margin: map-get($s, $i);
+    }
+  
+    .mt#{$i}-m {
+      margin-top: map-get($s, $i);
+    }
+  
+    .mr#{$i}-m {
+      margin-right: map-get($s, $i);
+    }
+  
+    .mb#{$i}-m {
+      margin-bottom: map-get($s, $i);
+    }
+  
+    .ml#{$i}-m {
+      margin-left: map-get($s, $i);
+    }
+
+    .mh#{$i}-m {
+      margin-left: map-get($s, $i);
+      margin-right: map-get($s, $i);
+    }
+
+    .mv#{$i}-m {
+      margin-top: map-get($s, $i);
+      margin-bottom: map-get($s, $i);
+    }
+  }
+
+  @include bp_l {
+    .ma#{$i}-l {
+      margin: map-get($s, $i);
+    }
+  
+    .mt#{$i}-l {
+      margin-top: map-get($s, $i);
+    }
+  
+    .mr#{$i}-l {
+      margin-right: map-get($s, $i);
+    }
+  
+    .mb#{$i}-l {
+      margin-bottom: map-get($s, $i);
+    }
+  
+    .ml#{$i}-l {
+      margin-left: map-get($s, $i);
+    }
+
+    .mh#{$i}-l {
+      margin-left: map-get($s, $i);
+      margin-right: map-get($s, $i);
+    }
+
+    .mv#{$i}-l {
+      margin-top: map-get($s, $i);
+      margin-bottom: map-get($s, $i);
+    }
+  }
+}
+
+/*----------  Paddings  ----------*/
+
+@for $i from 1 to 8 {
+  .pa#{$i} {
+    padding: map-get($s, $i);
+  }
+
+  .pt#{$i} {
+    padding-top: map-get($s, $i);
+  }
+
+  .pr#{$i} {
+    padding-right: map-get($s, $i);
+  }
+
+  .pb#{$i} {
+    padding-bottom: map-get($s, $i);
+  }
+
+  .pl#{$i} {
+    padding-left: map-get($s, $i);
+  }
+
+  .ph#{$i} {
+    padding-left: map-get($s, $i);
+    padding-right: map-get($s, $i);
+  }
+
+  .pv#{$i} {
+    margin-top: map-get($s, $i);
+    padding-bottom: map-get($s, $i);
+  }
+
+  @include bp_ns {
+    .pa#{$i}-ns {
+      padding: map-get($s, $i);
+    }
+  
+    .pt#{$i}-ns {
+      padding-top: map-get($s, $i);
+    }
+  
+    .pr#{$i}-ns {
+      padding-right: map-get($s, $i);
+    }
+  
+    .pb#{$i}-ns {
+      padding-bottom: map-get($s, $i);
+    }
+  
+    .pl#{$i}-ns {
+      padding-left: map-get($s, $i);
+    }
+
+    .ph#{$i}-ns {
+      padding-left: map-get($s, $i);
+      padding-right: map-get($s, $i);
+    }
+  
+    .pv#{$i}-ns {
+      margin-top: map-get($s, $i);
+      padding-bottom: map-get($s, $i);
+    }
+  }
+
+  @include bp_m {
+    .pa#{$i}-m {
+      padding: map-get($s, $i);
+    }
+  
+    .pt#{$i}-m {
+      padding-top: map-get($s, $i);
+    }
+  
+    .pr#{$i}-m {
+      padding-right: map-get($s, $i);
+    }
+  
+    .pb#{$i}-m {
+      padding-bottom: map-get($s, $i);
+    }
+  
+    .pl#{$i}-m {
+      padding-left: map-get($s, $i);
+    }
+
+    .ph#{$i}-m {
+      padding-left: map-get($s, $i);
+      padding-right: map-get($s, $i);
+    }
+  
+    .pv#{$i}-m {
+      margin-top: map-get($s, $i);
+      padding-bottom: map-get($s, $i);
+    }
+  }
+
+  @include bp_l {
+    .pa#{$i}-l {
+      padding: map-get($s, $i);
+    }
+  
+    .pt#{$i}-l {
+      padding-top: map-get($s, $i);
+    }
+  
+    .pr#{$i}-l {
+      padding-right: map-get($s, $i);
+    }
+  
+    .pb#{$i}-l {
+      padding-bottom: map-get($s, $i);
+    }
+  
+    .pl#{$i}-l {
+      padding-left: map-get($s, $i);
+    }
+
+    .ph#{$i}-l {
+      padding-left: map-get($s, $i);
+      padding-right: map-get($s, $i);
+    }
+  
+    .pv#{$i}-l {
+      margin-top: map-get($s, $i);
+      padding-bottom: map-get($s, $i);
+    }
+  }
+}
