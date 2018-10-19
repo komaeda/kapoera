@@ -2,7 +2,6 @@
 @import 'prelude';
 @import 'mixins';
 
-@import 'animations';
 @import 'borders';
 @import 'colors';
 @import 'debug';
@@ -15,3 +14,6 @@
 @import 'links';
 @import 'sizes';
 @import 'spacing';
+
+// Load Animations last because some parts will override previous transitions
+@import 'animations';
