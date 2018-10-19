@@ -17,9 +17,14 @@ $c-red: #FF4136;
 $c-maroon: #85144b;
 $c-fuchsia: #F012BE;
 $c-purple: #B10DC9;
-$c-black: rgb(45, 49, 56);
+$c-black: #000000;
+$c-near-black: #111111;
+$c-dark-gray: #333333;
+$c-mid-gray: #555555;
 $c-gray: #AAAAAA;
 $c-silver: #DDDDDD;
+$c-light-gray: #EEEEEE;
+$c-near-white: #f4f4f4;
 $c-white: #FFFFFF;
 
 /*----------  Foreground  ----------*/
@@ -38,9 +43,17 @@ $c-white: #FFFFFF;
 .fuchsia { color: $c-fuchsia; }
 .purple { color: $c-purple; }
 .black { color: $c-black; }
+.near-black { color: $c-near-black; }
+.dark-gray,
+.dark-grey { color: $c-dark-gray; }
+.mid-gray,
+.mid-grey { color: $c-mid-gray; }
 .gray,
 .grey { color: $c-gray; }
 .silver { color: $c-silver; }
+.light-gray,
+.light-grey { color: $light-gray; }
+.near-white { color: $near-white; }
 .white { color: $c-white; }
 
 .hover-navy:hover { color: $c-navy; }
@@ -57,9 +70,17 @@ $c-white: #FFFFFF;
 .hover-fuchsia:hover { color: $c-fuchsia; }
 .hover-purple:hover { color: $c-purple; }
 .hover-black:hover { color: $c-black; }
+.hover-near-black:hover { color: $c-near-black; }
+.hover-dark-gray:hover,
+.hover-dark-grey:hover { color: $c-dark-gray; }
+.hover-mid-gray:hover,
+.hover-mid-grey:hover { color: $c-mid-gray; }
 .hover-gray:hover,
 .hover-grey:hover { color: $c-gray; }
 .hover-silver:hover { color: $c-silver; }
+.hover-light-gray:hover,
+.hover-light-grey:hover { color: $light-gray; }
+.hover-near-white:hover { color: $near-white; }
 .hover-white:hover { color: $c-white; }
 
 /*----------  Background  ----------*/
@@ -78,9 +99,17 @@ $c-white: #FFFFFF;
 .bg-fuchsia { background-color: $c-fuchsia; }
 .bg-purple { background-color: $c-purple; }
 .bg-black { background-color: $c-black; }
+.bg-near-black { background-color: $c-near-black; }
+.bg-dark-gray,
+.bg-dark-grey { background-color: $c-dark-gray; }
+.bg-mid-gray,
+.bg-mid-grey { background-color: $c-mid-gray; }
 .bg-gray,
 .bg-grey { background-color: $c-gray; }
 .bg-silver { background-color: $c-silver; }
+.bg-light-gray,
+.bg-light-grey { background-color: $light-gray; }
+.bg-near-white { background-color: $near-white; }
 .bg-white { background-color: $c-white; }
 
 .hover-bg-navy:hover { background-color: $c-navy; }
@@ -97,9 +126,17 @@ $c-white: #FFFFFF;
 .hover-bg-fuchsia:hover { background-color: $c-fuchsia; }
 .hover-bg-purple:hover { background-color: $c-purple; }
 .hover-bg-black:hover { background-color: $c-black; }
+.hover-bg-near-black:hover { background-color: $c-near-black; }
+.hover-bg-dark-gray:hover,
+.hover-bg-dark-grey:hover { background-color: $c-dark-gray; }
+.hover-bg-mid-gray:hover,
+.hover-bg-mid-grey:hover { background-color: $c-mid-gray; }
 .hover-bg-gray:hover,
 .hover-bg-grey:hover { background-color: $c-gray; }
 .hover-bg-silver:hover { background-color: $c-silver; }
+.bg-light-gray,
+.hover-bg-light-grey:hover { background-color: $light-gray; }
+.hover-bg-near-white:hover { background-color: $near-white; }
 .hover-bg-white:hover { background-color: $c-white; }
 
 /*----------  Border Colors  ----------*/
@@ -118,7 +155,15 @@ $c-white: #FFFFFF;
 .bc-fuchsia { background-color: $c-fuchsia; }
 .bc-purple { background-color: $c-purple; }
 .bc-black { background-color: $c-black; }
+.bc-near-black { background-color: $c-near-black; }
+.bc-dark-gray,
+.bc-dark-grey { background-color: $c-dark-gray; }
+.bc-mid-gray,
+.bc-mid-grey { background-color: $c-mid-gray; }
 .bc-gray,
 .bc-grey { background-color: $c-gray; }
 .bc-silver { background-color: $c-silver; }
+.bc-light-gray,
+.bc-light-grey { background-color: $light-gray; }
+.bc-near-white { background-color: $near-white; }
 .bc-white { background-color: $c-white; }
