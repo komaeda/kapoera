@@ -1,6 +1,6 @@
 {
   "name": "kapoera",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "no-frills css-ish framework",
   "main": "dist/kapoera.standard.css",
   "scripts": {
