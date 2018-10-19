@@ -71,3 +71,14 @@
 .anim-bg:focus {
   transition: background-color .15s ease-in-out;
 }
+
+.hide-child .child {
+  opacity: 0;
+  transition: opacity .15s ease-in;
+}
+.hide-child:hover .child,
+.hide-child:focus .child,
+.hide-child:active .child {
+  opacity: 1;
+  transition: opacity .15s ease-in;
+}
