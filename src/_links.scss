@@ -7,6 +7,10 @@
   transition: color .15s ease-in;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 .link:link,
 .link:visited {
   transition: color .15s ease-in;
