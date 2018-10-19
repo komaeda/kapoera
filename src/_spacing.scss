@@ -4,11 +4,11 @@
 
 /*----------  Variables  ----------*/
 
-$s: (1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem);
+$s: (0: 0rem, 1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem);
 
 /*----------  Margins  ----------*/
 
-@for $i from 1 to 8 {
+@for $i from 0 to 8 {
   .ma#{$i} {
     margin: map-get($s, $i);
   }
@@ -40,7 +40,7 @@ $s: (1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem);
   }
 }
 
-@for $i from 1 to 8 {
+@for $i from 0 to 8 {
   @include bp_ns {
     .ma#{$i}-ns {
       margin: map-get($s, $i);
@@ -140,7 +140,7 @@ $s: (1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem);
 
 /*----------  Paddings  ----------*/
 
-@for $i from 1 to 8 {
+@for $i from 0 to 8 {
   .pa#{$i} {
     padding: map-get($s, $i);
   }
@@ -172,7 +172,7 @@ $s: (1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem);
   }
 }
 
-@for $i from 1 to 8 {
+@for $i from 0 to 8 {
   @include bp_ns {
     .pa#{$i}-ns {
       padding: map-get($s, $i);
