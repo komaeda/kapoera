@@ -55,6 +55,10 @@
   margin-right: auto;
 }
 
+.list {
+  list-style-type: none;
+}
+
 @include bp_ns {
   .l-centered-ns {
     max-width: 67rem;
