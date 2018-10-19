@@ -10,6 +10,16 @@ $s: (1: 3rem, 2: 2.25rem, 3: 1.5rem, 4: 1.25rem, 5: 1rem, 6: .875rem, 7: .75rem)
 
 .f-largest { font-size: 5rem; }
 
+@for $i from 1 to 8 {
+  .f#{$i} {
+    font-size: map-get($s, $i);
+  }
+
+  .fw#{$i} {
+    font-weight: $i * 100;
+  }
+}
+
 @include bp_ns {
   .f-largest-ns { font-size: 5rem; }
 }
@@ -23,14 +33,6 @@ $s: (1: 3rem, 2: 2.25rem, 3: 1.5rem, 4: 1.25rem, 5: 1rem, 6: .875rem, 7: .75rem)
 }
 
 @for $i from 1 to 8 {
-  .f#{$i} {
-    font-size: map-get($s, $i);
-  }
-
-  .fw#{$i} {
-    font-weight: $i * 100;
-  }
-
   @include bp_ns {
     .f#{$i}-ns {
       font-size: map-get($s, $i);

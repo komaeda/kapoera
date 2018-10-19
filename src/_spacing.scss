@@ -38,7 +38,9 @@ $s: (1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem);
     margin-top: map-get($s, $i);
     margin-bottom: map-get($s, $i);
   }
+}
 
+@for $i from 1 to 8 {
   @include bp_ns {
     .ma#{$i}-ns {
       margin: map-get($s, $i);
@@ -168,7 +170,9 @@ $s: (1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem);
     margin-top: map-get($s, $i);
     padding-bottom: map-get($s, $i);
   }
+}
 
+@for $i from 1 to 8 {
   @include bp_ns {
     .pa#{$i}-ns {
       padding: map-get($s, $i);
