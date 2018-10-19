@@ -141,29 +141,29 @@ $c-white: #FFFFFF;
 
 /*----------  Border Colors  ----------*/
 
-.bc-navy { background-color: $c-navy; }
-.bc-blue { background-color: $c-blue; }
-.bc-aqua { background-color: $c-aqua; }
-.bc-teal { background-color: $c-teal; }
-.bc-olive { background-color: $c-olive; }
-.bc-green { background-color: $c-green; }
-.bc-lime { background-color: $c-lime; }
-.bc-yellow { background-color: $c-yellow; }
-.bc-orange { background-color: $c-orange; }
-.bc-red { background-color: $c-red; }
-.bc-maroon { background-color: $c-maroon; }
-.bc-fuchsia { background-color: $c-fuchsia; }
-.bc-purple { background-color: $c-purple; }
-.bc-black { background-color: $c-black; }
-.bc-near-black { background-color: $c-near-black; }
+.bc-navy { border-color: $c-navy; }
+.bc-blue { border-color: $c-blue; }
+.bc-aqua { border-color: $c-aqua; }
+.bc-teal { border-color: $c-teal; }
+.bc-olive { border-color: $c-olive; }
+.bc-green { border-color: $c-green; }
+.bc-lime { border-color: $c-lime; }
+.bc-yellow { border-color: $c-yellow; }
+.bc-orange { border-color: $c-orange; }
+.bc-red { border-color: $c-red; }
+.bc-maroon { border-color: $c-maroon; }
+.bc-fuchsia { border-color: $c-fuchsia; }
+.bc-purple { border-color: $c-purple; }
+.bc-black { border-color: $c-black; }
+.bc-near-black { border-color: $c-near-black; }
 .bc-dark-gray,
-.bc-dark-grey { background-color: $c-dark-gray; }
+.bc-dark-grey { border-color: $c-dark-gray; }
 .bc-mid-gray,
-.bc-mid-grey { background-color: $c-mid-gray; }
+.bc-mid-grey { border-color: $c-mid-gray; }
 .bc-gray,
-.bc-grey { background-color: $c-gray; }
-.bc-silver { background-color: $c-silver; }
+.bc-grey { border-color: $c-gray; }
+.bc-silver { border-color: $c-silver; }
 .bc-light-gray,
-.bc-light-grey { background-color: $light-gray; }
-.bc-near-white { background-color: $near-white; }
-.bc-white { background-color: $c-white; }
+.bc-light-grey { border-color: $light-gray; }
+.bc-near-white { border-color: $near-white; }
+.bc-white { border-color: $c-white; }
