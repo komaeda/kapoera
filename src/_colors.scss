@@ -52,8 +52,8 @@ $c-white: #FFFFFF;
 .grey { color: $c-gray; }
 .silver { color: $c-silver; }
 .light-gray,
-.light-grey { color: $light-gray; }
-.near-white { color: $near-white; }
+.light-grey { color: $c-light-gray; }
+.near-white { color: $c-near-white; }
 .white { color: $c-white; }
 
 .hover-navy:hover { color: $c-navy; }
@@ -79,8 +79,8 @@ $c-white: #FFFFFF;
 .hover-grey:hover { color: $c-gray; }
 .hover-silver:hover { color: $c-silver; }
 .hover-light-gray:hover,
-.hover-light-grey:hover { color: $light-gray; }
-.hover-near-white:hover { color: $near-white; }
+.hover-light-grey:hover { color: $c-light-gray; }
+.hover-near-white:hover { color: $c-near-white; }
 .hover-white:hover { color: $c-white; }
 
 /*----------  Background  ----------*/
@@ -108,8 +108,8 @@ $c-white: #FFFFFF;
 .bg-grey { background-color: $c-gray; }
 .bg-silver { background-color: $c-silver; }
 .bg-light-gray,
-.bg-light-grey { background-color: $light-gray; }
-.bg-near-white { background-color: $near-white; }
+.bg-light-grey { background-color: $c-light-gray; }
+.bg-near-white { background-color: $c-near-white; }
 .bg-white { background-color: $c-white; }
 
 .hover-bg-navy:hover { background-color: $c-navy; }
@@ -135,8 +135,8 @@ $c-white: #FFFFFF;
 .hover-bg-grey:hover { background-color: $c-gray; }
 .hover-bg-silver:hover { background-color: $c-silver; }
 .bg-light-gray,
-.hover-bg-light-grey:hover { background-color: $light-gray; }
-.hover-bg-near-white:hover { background-color: $near-white; }
+.hover-bg-light-grey:hover { background-color: $c-light-gray; }
+.hover-bg-near-white:hover { background-color: $c-near-white; }
 .hover-bg-white:hover { background-color: $c-white; }
 
 /*----------  Border Colors  ----------*/
@@ -164,6 +164,6 @@ $c-white: #FFFFFF;
 .bc-grey { border-color: $c-gray; }
 .bc-silver { border-color: $c-silver; }
 .bc-light-gray,
-.bc-light-grey { border-color: $light-gray; }
-.bc-near-white { border-color: $near-white; }
+.bc-light-grey { border-color: $c-light-gray; }
+.bc-near-white { border-color: $c-near-white; }
 .bc-white { border-color: $c-white; }
