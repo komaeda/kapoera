@@ -167,7 +167,7 @@ $s: (0: 0rem, 1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem)
   }
 
   .pv#{$i} {
-    margin-top: map-get($s, $i);
+    padding-top: map-get($s, $i);
     padding-bottom: map-get($s, $i);
   }
 }
@@ -200,7 +200,7 @@ $s: (0: 0rem, 1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem)
     }
   
     .pv#{$i}-ns {
-      margin-top: map-get($s, $i);
+      padding-top: map-get($s, $i);
       padding-bottom: map-get($s, $i);
     }
   }
@@ -232,7 +232,7 @@ $s: (0: 0rem, 1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem)
     }
   
     .pv#{$i}-m {
-      margin-top: map-get($s, $i);
+      padding-top: map-get($s, $i);
       padding-bottom: map-get($s, $i);
     }
   }
@@ -264,7 +264,7 @@ $s: (0: 0rem, 1: .25rem, 2: .5rem, 3: 1rem, 4: 2rem, 5: 4rem, 6: 8rem, 7: 16rem)
     }
   
     .pv#{$i}-l {
-      margin-top: map-get($s, $i);
+      padding-top: map-get($s, $i);
       padding-bottom: map-get($s, $i);
     }
   }
