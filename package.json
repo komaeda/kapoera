@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/coll/kapoera#readme",
   "dependencies": {
-    "clean-css-cli": "^4.2.1",
-    "node-sass": "^4.9.3"
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.12.0"
   }
 }
